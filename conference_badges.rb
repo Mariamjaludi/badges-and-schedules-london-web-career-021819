@@ -17,3 +17,8 @@ def assign_rooms(speakers)
       #{each_with_index + 1}!"); end
       return room_assignments
 end
+
+def printer
+  puts batch_badge_creator(names)
+  puts assign_rooms(speakers)
+end
